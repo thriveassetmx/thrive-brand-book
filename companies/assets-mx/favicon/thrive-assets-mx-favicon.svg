@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 357 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2389.29,-2275.47)">
+        <g transform="matrix(1,0,0,1,4656.06,-1750.54)">
+            <g transform="matrix(-1.09981,-1.34688e-16,1.36771e-16,-1.11682,1784.53,9328.24)">
+                <path d="M3449.75,4594.07L3475.27,4645.84L3538.83,4517.6L3591.53,4517.73L3475.41,4746.47L3475.27,4746.21L3475.01,4746.75L3359.57,4517.63L3411.99,4517.46L3432.9,4559.89L3502.9,4559.89L3485.95,4594.07L3449.75,4594.07Z" style="fill:rgb(253,65,0);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,4656.06,-1750.54)">
+            <g transform="matrix(1.1549,0,0,1.1549,-4208.32,3920.75)">
+                <path d="M1867.64,91.433L1846.4,133.32L1809.9,133.026L1809.83,206.957L1763.66,300.25L1763.66,133.026L1681.14,133.026L1701.65,91.138L1867.64,91.433Z" style="fill:rgb(0,73,233);fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,4656.06,-1750.54)">
+            <g transform="matrix(1,0,0,1,-0.720244,0)">
+                <g transform="matrix(0.197611,0,0,0.195196,-2410.75,4227.15)">
+                    <path d="M1712.73,286.159L1712.73,127.994L1739.38,127.994L1791.37,232.998L1843.36,127.994L1870.02,127.994L1870.02,286.159L1842.27,286.159L1842.27,191.699L1796.61,286.159L1786.13,286.159L1740.47,191.699L1740.47,286.159L1712.73,286.159Z" style="fill:rgb(26,26,26);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0.197611,0,0,0.195196,-2411.43,4227.15)">
+                    <path d="M1929,286.159L1981.87,206.198L1930.53,127.994L1967.01,127.994L2000.44,180.716L2033.42,127.994L2070.12,127.994L2018.79,206.198L2071.43,286.159L2034.95,286.159L2000.44,231.68L1965.7,286.159L1929,286.159Z" style="fill:rgb(26,26,26);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
