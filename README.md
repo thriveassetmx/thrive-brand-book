@@ -9,13 +9,25 @@ Pages settings for the exact URL).
 ## Structure
 
 ```
-00-shared/       naming system, changelog, font record, color system, master .afdesign
+00-shared/       naming system, changelog, font record, color system, master .afdesign, fonts/
 companies/       one folder per THRIVE company — logo/ and favicon/ subfolders
 site/            the brand book itself (index.html + styles.css)
 build-downloads.sh   regenerates downloads/*.zip from whatever's in companies/ + 00-shared/
 .github/workflows/deploy.yml   rebuilds the zips and redeploys the site on every push to main
 ASSET-INVENTORY.md   what's confirmed vs. draft vs. missing, per company
 ```
+
+## Downloads
+
+`build-downloads.sh` produces, into `downloads/` (gitignored, rebuilt fresh by CI on every push):
+
+- `thrive-fonts.zip` — Gabarito + Manrope only (variable + static weights, OFL-licensed)
+- `thrive-<slug>-assets.zip` — one per company with any assets, **each bundled with the fonts**
+  so a single download is enough to design with
+- `thrive-brand-kit-complete.zip` — everything (all companies + `00-shared/`)
+
+Add more font families under `00-shared/fonts/<family>/` and they're picked up automatically —
+no script changes needed.
 
 ## Adding new assets (logos, favicons, SMM graphics, brand kits)
 

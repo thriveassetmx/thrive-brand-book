@@ -14,7 +14,17 @@ cd "$(dirname "$0")"
 rm -rf downloads
 mkdir -p downloads
 
-echo "Building per-company packs..."
+FONTS_DIR="00-shared/fonts"
+
+echo "Building fonts-only pack..."
+if [ -d "$FONTS_DIR" ] && [ -n "$(find "$FONTS_DIR" -type f ! -name '.DS_Store')" ]; then
+  (cd 00-shared && zip -rq "../downloads/thrive-fonts.zip" fonts -x '*.DS_Store')
+  echo "  -> downloads/thrive-fonts.zip"
+else
+  echo "  - no fonts on disk yet, skipping"
+fi
+
+echo "Building per-company packs (assets + fonts)..."
 for dir in companies/*/; do
   slug="$(basename "$dir")"
   # skip companies with nothing in them yet — an empty zip helps no one
@@ -23,8 +33,16 @@ for dir in companies/*/; do
     continue
   fi
   out="downloads/thrive-${slug}-assets.zip"
-  (cd companies && zip -rq "../$out" "$slug" -x '*.DS_Store')
-  echo "  - $slug -> $out"
+  staging="$(mktemp -d)"
+  mkdir -p "$staging/$slug"
+  cp -R "$dir." "$staging/$slug/"
+  if [ -d "$FONTS_DIR" ]; then
+    mkdir -p "$staging/$slug/fonts"
+    cp -R "$FONTS_DIR/." "$staging/$slug/fonts/"
+  fi
+  (cd "$staging" && zip -rq "$OLDPWD/$out" "$slug" -x '*.DS_Store')
+  rm -rf "$staging"
+  echo "  - $slug -> $out (includes fonts)"
 done
 
 echo "Building full brand kit (everything)..."

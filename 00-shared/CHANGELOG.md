@@ -26,6 +26,18 @@ approved brand asset.
 - Documented the monogram convention in `NAMING-SYSTEM.md`: Creative Exchange's own favicon
   should use **"TCE"**, reserving "TC" for Capital MX going forward.
 
+## 2026-08-18 — Repo moved to thriveassetmx; fonts added to downloads
+- Moved the GitHub repo from `coderMx777/thrive-brand-book` to `thriveassetmx/thrive-brand-book`
+  (correct company-owned account). Live site is now
+  https://thriveassetmx.github.io/thrive-brand-book/
+- Added real font files under `00-shared/fonts/` (Gabarito + Manrope, variable + static weights,
+  official Google Fonts OFL package).
+- `build-downloads.sh` now also produces `thrive-fonts.zip` (fonts only) and bundles the fonts
+  into every per-company zip, so one download is enough to start designing.
+- Noticed `00-shared/branding.afdesign` alongside the existing `00-shared/logo.afdesign` (same
+  size ballpark, different timestamp) — not touched or resolved, **needs a decision on which is
+  canonical** per `NAMING-SYSTEM.md`'s no-duplicate rule.
+
 ## 2026-08-16 — Property MX favicon mark added
 - Added `companies/property-mx/favicon/thrive-property-mx-favicon.svg` (T+P monogram), renamed
   from the incoming `favicon-TP.svg`. Source mark only — still needs the 16/32/180/512/.ico

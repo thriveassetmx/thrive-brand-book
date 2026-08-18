@@ -29,6 +29,11 @@ brand/
 | **Thrive Hospitality MX** | ⬜ missing | 🟡 4 unresolved draft variants (`variant-1..4`, from old files "Th 1–4") | These read "TH" + "MX" — no single one has been picked as final; need a decision |
 | **Thrive Capital MX** | ⬜ missing | 🟡 1 draft (`thrive-capital-mx-favicon.svg`, from old file "TC") | Confirmed 2026-08-16: "TC" = Capital MX, not Creative Exchange |
 
+## Fonts
+`00-shared/fonts/` holds the real Google Fonts OFL packages for **Gabarito** (display) and
+**Manrope** (body) — variable fonts + static weights, `OFL.txt` + `README.txt` included. Bundled
+into every per-company download and available standalone as `thrive-fonts.zip`.
+
 ## Immediate action items
 1. Pick one of the 4 Hospitality MX favicon variants as final (or export a new one from Affinity).
 2. Export full logo lockups (primary/stacked/icon × full-color/black/white) for Assets MX,
