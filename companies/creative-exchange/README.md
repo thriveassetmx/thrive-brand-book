@@ -1,9 +1,11 @@
 # Thrive Creative Exchange
 
-Status: **no assets yet**. See `../../ASSET-INVENTORY.md` for the full picture and
-`../../site/index.html` for the visual brand book.
+Status: **logo lockup added (1-color/2-color/full-color, light/dark bg), favicon in place**. See
+`../../ASSET-INVENTORY.md` for the full picture and `../../site/index.html` for the visual brand
+book.
 
-- `favicon/` and `logo/` are both empty. The old "TC" favicon draft was confirmed to belong to
-  **Thrive Capital MX**, not this brand — see `../capital-mx/`.
-- When exported, this brand's favicon monogram should be **"TCE"** (three letters), not "TC" —
-  "TC" is reserved for Capital MX so the two never collide again.
+- `logo/svg/` — 1-color, 2-color, full-color, light/dark bg
+- `logo/png/` — 1-color, 2-color, full-color, light/dark bg
+- `favicon/tce-favicon-lightbg.svg` / `-darkbg.svg` — uses the **TCE** monogram, not "TC" — "TC"
+  is reserved for Capital MX (the old "TC" draft was confirmed to belong there, not here — see
+  `../capital-mx/`)

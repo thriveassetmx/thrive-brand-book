@@ -57,6 +57,10 @@ approved brand asset.
   `thrive-hospitality-mx-favicon-variant-{1..4}.svg` down to `hospitalitymx-favicon.svg`; added
   its full logo lockup (`hospitalitymx-logo-*`, svg + png, 1-color/2-color/full-color x
   light/dark bg). Same metadata pass applied.
+- Creative Exchange: added its full logo lockup (`tce-logo-*`, svg + png,
+  1-color/2-color/full-color x light/dark bg) and favicon (`tce-favicon-lightbg.svg` /
+  `-darkbg.svg`, TCE monogram); fixed a `darktbg` typo in the incoming full-color filenames to
+  `darkbg`. Same metadata pass applied.
 
 ## 2026-08-16 — Property MX favicon mark added
 - Added `companies/property-mx/favicon/thrive-property-mx-favicon.svg` (T+P monogram), renamed

@@ -15,7 +15,7 @@ brand/
     assets-mx/        ← logo/ (svg + png, 1-color/2-color/full-color, light/dark bg) + favicon/
     capital-mx/       ← logo/ (svg + png, 1-color/2-color/full-color*, light/dark bg) + favicon/
     hospitality-mx/   ← logo/ (svg + png, 1-color/2-color/full-color, light/dark bg) + favicon/
-    creative-exchange/← favicon/ (1 draft, TC) — logo/ empty
+    creative-exchange/← logo/ (svg + png, 1-color/2-color/full-color, light/dark bg) + favicon/
   site/               ← local HTML/CSS brand book viewer
 ```
 
@@ -27,7 +27,7 @@ brand/
 | **Thrive Assets MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`assetmx-logo-*`) | 🟡 source mark added (`assetmx-favicon.svg`, from old file "TA"), still needs 16/32/180/512/.ico export | Parent/portfolio brand |
 | **Thrive Capital MX** | 🟡 svg + png, 1-color/2-color, light/dark bg (`capitalmx-logo-*`); full-color PNG only, SVG still missing | 🟡 source mark added (`capitalmx-favicon.svg`, from old file "TC"), still needs 16/32/180/512/.ico export | Confirmed 2026-08-16: "TC" = Capital MX, not Creative Exchange |
 | **Thrive Hospitality MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`hospitalitymx-logo-*`) | 🟡 final pick made (`hospitalitymx-favicon.svg`, from the 4 "Th 1–4" drafts), still needs 16/32/180/512/.ico export | Favicon decision resolved 2026-08-23 |
-| **Thrive Creative Exchange** | ⬜ missing | ⬜ missing | No assets found — the "TC" file was confirmed to be Capital MX, not this brand. Its own favicon should use monogram **"TCE"**, not "TC", to avoid colliding with Capital MX going forward |
+| **Thrive Creative Exchange** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`tce-logo-*`) | 🟡 source marks added (`tce-favicon-lightbg.svg` / `-darkbg.svg`, TCE monogram), still needs 16/32/180/512/.ico export | Confirmed 2026-08-16 the old "TC" draft belongs to Capital MX, not this brand — TCE monogram avoids the collision going forward |
 
 ## Fonts
 `00-shared/fonts/` holds the real Google Fonts OFL packages for **Gabarito** (display) and
@@ -35,9 +35,7 @@ brand/
 into every per-company download and available standalone as `thrive-fonts.zip`.
 
 ## Immediate action items
-1. Export a full logo lockup for Creative Exchange — same process as the other five companies,
-   see `00-shared/EXPORT-FROM-AFFINITY.md`.
-2. Export the missing full-color SVG for Capital MX (only the PNG exists so far).
-3. Turn Property MX's, Assets MX's, Capital MX's, and Hospitality MX's favicon source marks into
-   proper 16/32/180/512/.ico sets.
-4. Fill in `00-shared/color-system.md` with confirmed HEX/RGB/CMYK/Pantone values.
+1. Export the missing full-color SVG for Capital MX (only the PNG exists so far).
+2. Turn every company's favicon source marks into proper 16/32/180/512/.ico sets — Property MX,
+   Assets MX, Capital MX, Hospitality MX, and Creative Exchange all still need this.
+3. Fill in `00-shared/color-system.md` with confirmed HEX/RGB/CMYK/Pantone values.
