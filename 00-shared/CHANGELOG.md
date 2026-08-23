@@ -7,6 +7,13 @@ approved brand asset.
 - Move `logo.afdesign` here from `Logos/New/` (or keep it there and treat that as canonical —
   pick one location, note it below).
 - First export of the full lockup family under the new naming system.
+- Re-export Creative Exchange's favicon with the new **TCX** monogram (was TCE).
+
+## 2026-08-23 — Creative Exchange monogram changed from TCE to TCX
+- Decided the Creative Exchange favicon monogram will be **TCX**, not TCE. Removed the stale
+  "uses the TCE monogram" naming note from `site/index.html` and updated `NAMING-SYSTEM.md`,
+  `ASSET-INVENTORY.md`, and the company `README.md` to flag that the current favicon files still
+  carry the old TCE monogram and need re-exporting.
 
 ## 2026-08-23 — Fixed swapped light/dark bg on Creative Exchange's 2-color logo; favicons locked
 - Creative Exchange's `tce-logo-2-color-lightbg`/`-darkbg` (svg + png) had their content swapped:
