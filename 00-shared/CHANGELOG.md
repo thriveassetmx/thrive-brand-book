@@ -9,6 +9,12 @@ approved brand asset.
 - First export of the full lockup family under the new naming system.
 - Re-export Creative Exchange's favicon with the new **TCX** monogram (was TCE).
 
+## 2026-08-23 — Capital MX full-color SVG added
+- Added the missing `capitalmx-logo-full-color-lightbg.svg` / `-darkbg.svg` (the full-color
+  lockup previously only existed as PNG). Embedded the same Title/Description metadata as the
+  other Capital MX files. Capital MX's logo lockup is now complete: svg + png across
+  1-color/2-color/full-color, light/dark bg.
+
 ## 2026-08-23 — Creative Exchange monogram changed from TCE to TCX
 - Decided the Creative Exchange favicon monogram will be **TCX**, not TCE. Removed the stale
   "uses the TCE monogram" naming note from `site/index.html` and updated `NAMING-SYSTEM.md`,
