@@ -23,11 +23,14 @@ brand/
 
 | Company | Full logo lockup | Favicon | Notes |
 |---|---|---|---|
-| **Thrive Property MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`propertymx-logo-*`) | 🟡 source mark added (`propertymx-favicon.svg`), still needs 16/32/180/512/.ico export | Most complete brand — treat as the reference for the shared wordmark/colors |
-| **Thrive Assets MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`assetmx-logo-*`) | 🟡 source mark added (`assetmx-favicon.svg`, from old file "TA"), still needs 16/32/180/512/.ico export | Parent/portfolio brand |
-| **Thrive Capital MX** | 🟡 svg + png, 1-color/2-color, light/dark bg (`capitalmx-logo-*`); full-color PNG only, SVG still missing | 🟡 source mark added (`capitalmx-favicon.svg`, from old file "TC"), still needs 16/32/180/512/.ico export | Confirmed 2026-08-16: "TC" = Capital MX, not Creative Exchange |
-| **Thrive Hospitality MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`hospitalitymx-logo-*`) | 🟡 final pick made (`hospitalitymx-favicon.svg`, from the 4 "Th 1–4" drafts), still needs 16/32/180/512/.ico export | Favicon decision resolved 2026-08-23 |
-| **Thrive Creative Exchange** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`tce-logo-*`) | 🟡 source marks added (`tce-favicon-lightbg.svg` / `-darkbg.svg`, TCE monogram), still needs 16/32/180/512/.ico export | Confirmed 2026-08-16 the old "TC" draft belongs to Capital MX, not this brand — TCE monogram avoids the collision going forward |
+| **Thrive Property MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`propertymx-logo-*`) | ✅ final (`propertymx-favicon.svg`) | Most complete brand — treat as the reference for the shared wordmark/colors |
+| **Thrive Assets MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`assetmx-logo-*`) | ✅ final (`assetmx-favicon.svg`, from old file "TA") | Parent/portfolio brand |
+| **Thrive Capital MX** | 🟡 svg + png, 1-color/2-color, light/dark bg (`capitalmx-logo-*`); full-color PNG only, SVG still missing | ✅ final (`capitalmx-favicon.svg`, from old file "TC") | Confirmed 2026-08-16: "TC" = Capital MX, not Creative Exchange |
+| **Thrive Hospitality MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`hospitalitymx-logo-*`) | ✅ final (`hospitalitymx-favicon.svg`, resolved 2026-08-23 from the 4 "Th 1–4" drafts) | Favicon decision resolved 2026-08-23 |
+| **Thrive Creative Exchange** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`tce-logo-*`) | ✅ final (`tce-favicon-lightbg.svg` / `-darkbg.svg`, TCE monogram) | Confirmed 2026-08-16 the old "TC" draft belongs to Capital MX, not this brand — TCE monogram avoids the collision going forward |
+
+Favicons are locked as of 2026-08-23 — no further changes planned. (16/32/180/512/.ico export
+from the source marks above is still a manual step outside this repo, done at deploy time.)
 
 ## Fonts
 `00-shared/fonts/` holds the real Google Fonts OFL packages for **Gabarito** (display) and

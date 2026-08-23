@@ -8,6 +8,16 @@ approved brand asset.
   pick one location, note it below).
 - First export of the full lockup family under the new naming system.
 
+## 2026-08-23 — Fixed swapped light/dark bg on Creative Exchange's 2-color logo; favicons locked
+- Creative Exchange's `tce-logo-2-color-lightbg`/`-darkbg` (svg + png) had their content swapped:
+  the file named `-lightbg` carried a white subtext (invisible on light bg) and `-darkbg` carried
+  the default-black subtext (invisible on dark bg) — the opposite of every other company. Swapped
+  the file contents back so each name matches what it actually renders correctly on. Checked all
+  other companies' 2-color pairs — only Creative Exchange had the mistake.
+- Declared favicons final across all five companies — removed the "still needs 16/32/180/512/.ico
+  export" flags and "draft" labels from `site/index.html` and `ASSET-INVENTORY.md`. No further
+  favicon changes planned.
+
 ## 2026-08-16 — Multi-brand reorganization
 - Restructured `brand/` from a single-company scaffold into `00-shared/` (naming system,
   changelog, font record, color system, master `.afdesign`) + `companies/<slug>/` per THRIVE
