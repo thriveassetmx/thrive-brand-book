@@ -53,6 +53,10 @@ approved brand asset.
   `capitalmx-favicon.svg`.
 - Same metadata pass applied to the new Assets MX and Capital MX files.
 - Updated `ASSET-INVENTORY.md`, `site/index.html`, and each company's `README.md` to match.
+- Hospitality MX: resolved the 4 unlabeled favicon drafts to one final pick, renamed
+  `thrive-hospitality-mx-favicon-variant-{1..4}.svg` down to `hospitalitymx-favicon.svg`; added
+  its full logo lockup (`hospitalitymx-logo-*`, svg + png, 1-color/2-color/full-color x
+  light/dark bg). Same metadata pass applied.
 
 ## 2026-08-16 — Property MX favicon mark added
 - Added `companies/property-mx/favicon/thrive-property-mx-favicon.svg` (T+P monogram), renamed
