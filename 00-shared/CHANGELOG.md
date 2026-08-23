@@ -38,6 +38,22 @@ approved brand asset.
   size ballpark, different timestamp) — not touched or resolved, **needs a decision on which is
   canonical** per `NAMING-SYSTEM.md`'s no-duplicate rule.
 
+## 2026-08-23 — Property MX renamed off "thrive-" prefix; Assets MX + Capital MX lockups added
+- Renamed all Property MX logo/favicon files from `thrive-logo-primary-*` /
+  `thrive-property-mx-favicon.svg` to `propertymx-logo-*` / `propertymx-favicon.svg` (dropped both
+  the "thrive-" prefix and the redundant "primary" lockup word).
+- Embedded Title/Description/Author metadata ("Thrive Property MX") into the PNG text chunks and
+  SVG `<title>`/`<desc>` tags.
+- Added the full Assets MX logo lockup (`assetmx-logo-*`, 1-color/2-color/full-color ×
+  light/dark bg, svg + png) under `companies/assets-mx/logo/svg/` and `logo/png/`; renamed the
+  favicon from `thrive-assets-mx-favicon.svg` to `assetmx-favicon.svg`.
+- Added the Capital MX logo lockup (`capitalmx-logo-*`, 1-color/2-color/full-color ×
+  light/dark bg — full-color SVG still missing, PNG only) under `companies/capital-mx/logo/svg/`
+  and `logo/png/`; renamed the favicon from `thrive-capital-mx-favicon.svg` to
+  `capitalmx-favicon.svg`.
+- Same metadata pass applied to the new Assets MX and Capital MX files.
+- Updated `ASSET-INVENTORY.md`, `site/index.html`, and each company's `README.md` to match.
+
 ## 2026-08-16 — Property MX favicon mark added
 - Added `companies/property-mx/favicon/thrive-property-mx-favicon.svg` (T+P monogram), renamed
   from the incoming `favicon-TP.svg`. Source mark only — still needs the 16/32/180/512/.ico

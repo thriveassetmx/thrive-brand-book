@@ -6,5 +6,5 @@ See `../../ASSET-INVENTORY.md` for the full picture across all companies, and
 
 - `logo/svg/` — primary lockup, full-color (light/dark bg) + one-color black/white
 - `logo/png/` — full-color, light/dark bg
-- `favicon/thrive-property-mx-favicon.svg` — source T+P monogram mark; still needs exporting as
+- `favicon/propertymx-favicon.svg` — source T+P monogram mark; still needs exporting as
   a proper 16/32/180/512/.ico set

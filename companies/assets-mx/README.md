@@ -1,7 +1,9 @@
 # Thrive Assets MX
 
-Status: **favicon draft only, no logo lockup**. Parent/portfolio brand. See
-`../../ASSET-INVENTORY.md` for the full picture and `../../site/index.html` for the visual brand book.
+Status: **logo lockup added (1-color/2-color/full-color, light/dark bg), favicon in place**.
+Parent/portfolio brand. See `../../ASSET-INVENTORY.md` for the full picture and
+`../../site/index.html` for the visual brand book.
 
-- `favicon/thrive-assets-mx-favicon.svg` — draft, from the old file labeled "TA"
-- `logo/` — empty; needs a full lockup exported from `../../00-shared/logo.afdesign`
+- `logo/svg/` — 1-color, 2-color, full-color, light/dark bg
+- `logo/png/` — 1-color, 2-color, full-color, light/dark bg
+- `favicon/assetmx-favicon.svg` — from the old file labeled "TA"

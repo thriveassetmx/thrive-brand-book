@@ -1,8 +1,11 @@
 # Thrive Capital MX
 
-Status: **favicon draft only, no logo lockup**. See `../../ASSET-INVENTORY.md` for the full
-picture and `../../site/index.html` for the visual brand book.
+Status: **logo lockup added (1-color/2-color/full-color, light/dark bg), favicon in place**.
+See `../../ASSET-INVENTORY.md` for the full picture and `../../site/index.html` for the visual
+brand book.
 
-- `favicon/thrive-capital-mx-favicon.svg` — draft, from the old file labeled "TC" (confirmed
-  2026-08-16 to be Capital MX, not Creative Exchange).
-- `logo/` — empty; needs a full lockup exported from `../../00-shared/logo.afdesign`
+- `logo/svg/` — 1-color, 2-color, full-color, light/dark bg (full-color SVG still needs exporting
+  — only the PNG exists so far)
+- `logo/png/` — full-color, light/dark bg
+- `favicon/capitalmx-favicon.svg` — from the old file labeled "TC" (confirmed 2026-08-16 to be
+  Capital MX, not Creative Exchange)
