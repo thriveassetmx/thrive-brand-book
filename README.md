@@ -1,7 +1,8 @@
 # THRIVE Brand Book
 
 The digital brand book for all THRIVE companies — shared colors/typography plus logo and
-favicon status for Property MX, Assets MX, Creative Exchange, Hospitality MX, and Capital MX.
+favicon status for Holdings, Ventures, Property MX, Assets MX, Creative Exchange,
+Hospitality MX, and Capital MX.
 
 **Live site:** published via GitHub Pages from this repo (see the repo's "About" section /
 Pages settings for the exact URL).
