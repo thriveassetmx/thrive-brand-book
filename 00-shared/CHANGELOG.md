@@ -3,6 +3,17 @@
 Version lives here, not in filenames. One entry per revision to `logo.afdesign` or any
 approved brand asset.
 
+## 2026-10-07 — Pure black, black-background favicons, "Asset MX" display name
+- Brand black changed from near-black (`#1A1A1A`; `rgb(11,13,13)` in lockups) to **`#000000`**.
+  Applied to the favicon and full-color light-bg logo SVG/PNG files (incl. `-email` PNGs) and
+  the brand book site. Other brand colors unchanged.
+- Added `*-favicon-blackbg.svg/.png` for Asset MX, Capital MX, Hospitality MX, Property MX:
+  black background, MX letters white, everything else unchanged. Originals preserved.
+  Creative Exchange has no MX letters in its favicon, so it has no black-bg variant.
+- Display text "Assets MX" corrected to **"Asset MX"** (singular). Folder, file and zip slugs
+  (`assets-mx`, `thrive-assets-mx-assets.zip`) and the repo name are intentionally unchanged.
+- Brand book company cards now listed alphabetically.
+
 ## Unreleased
 - Move `logo.afdesign` here from `Logos/New/` (or keep it there and treat that as canonical —
   pick one location, note it below).
@@ -67,20 +78,20 @@ approved brand asset.
   size ballpark, different timestamp) — not touched or resolved, **needs a decision on which is
   canonical** per `NAMING-SYSTEM.md`'s no-duplicate rule.
 
-## 2026-08-23 — Property MX renamed off "thrive-" prefix; Assets MX + Capital MX lockups added
+## 2026-08-23 — Property MX renamed off "thrive-" prefix; Asset MX + Capital MX lockups added
 - Renamed all Property MX logo/favicon files from `thrive-logo-primary-*` /
   `thrive-property-mx-favicon.svg` to `propertymx-logo-*` / `propertymx-favicon.svg` (dropped both
   the "thrive-" prefix and the redundant "primary" lockup word).
 - Embedded Title/Description/Author metadata ("Thrive Property MX") into the PNG text chunks and
   SVG `<title>`/`<desc>` tags.
-- Added the full Assets MX logo lockup (`assetmx-logo-*`, 1-color/2-color/full-color ×
+- Added the full Asset MX logo lockup (`assetmx-logo-*`, 1-color/2-color/full-color ×
   light/dark bg, svg + png) under `companies/assets-mx/logo/svg/` and `logo/png/`; renamed the
   favicon from `thrive-assets-mx-favicon.svg` to `assetmx-favicon.svg`.
 - Added the Capital MX logo lockup (`capitalmx-logo-*`, 1-color/2-color/full-color ×
   light/dark bg — full-color SVG still missing, PNG only) under `companies/capital-mx/logo/svg/`
   and `logo/png/`; renamed the favicon from `thrive-capital-mx-favicon.svg` to
   `capitalmx-favicon.svg`.
-- Same metadata pass applied to the new Assets MX and Capital MX files.
+- Same metadata pass applied to the new Asset MX and Capital MX files.
 - Updated `ASSET-INVENTORY.md`, `site/index.html`, and each company's `README.md` to match.
 - Hospitality MX: resolved the 4 unlabeled favicon drafts to one final pick, renamed
   `thrive-hospitality-mx-favicon-variant-{1..4}.svg` down to `hospitalitymx-favicon.svg`; added

@@ -11,7 +11,7 @@ letters that can't collide between companies. Confirmed so far:
 
 | Company | Monogram |
 |---|---|
-| Thrive Assets MX | TA |
+| Thrive Asset MX | TA |
 | Thrive Capital MX | TC |
 | Thrive Creative Exchange | **TCX** (not "TC" — reserved for Capital MX; was "TCE", changed 2026-08-23) |
 | Thrive Hospitality MX | TH |

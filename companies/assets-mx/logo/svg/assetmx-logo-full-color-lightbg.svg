@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1229 431" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <title>Thrive Assets MX</title>
-    <desc>Thrive Assets MX logo</desc>
+    <title>Thrive Asset MX</title>
+    <desc>Thrive Asset MX logo</desc>
     <g transform="matrix(1,0,0,1,-12629.351337,-9469.244812)">
         <g transform="matrix(3.183149,0,0,1,28774.578152,7178.3953)">
             <g transform="matrix(0.681704,0,0,1,-1653.395312,0)">
@@ -48,8 +48,8 @@
         </g>
         <g transform="matrix(3.183149,0,0,1,28774.578152,7178.3953)">
             <g transform="matrix(0.622078,0,0,1.980166,-8118.06265,1576.981961)">
-                <path d="M5338.366,576.55L5338.366,511.071L5349.461,511.071L5371.106,554.542L5392.75,511.071L5403.845,511.071L5403.845,576.55L5392.296,576.55L5392.296,537.444L5373.288,576.55L5368.923,576.55L5349.916,537.444L5349.916,576.55L5338.366,576.55Z" style="fill:rgb(11,13,13);fill-rule:nonzero;"/>
-                <path d="M5433.857,576.55L5455.865,543.447L5434.493,511.071L5449.681,511.071L5463.595,532.897L5477.328,511.071L5492.606,511.071L5471.234,543.447L5493.152,576.55L5477.964,576.55L5463.595,553.996L5449.135,576.55L5433.857,576.55Z" style="fill:rgb(11,13,13);fill-rule:nonzero;"/>
+                <path d="M5338.366,576.55L5338.366,511.071L5349.461,511.071L5371.106,554.542L5392.75,511.071L5403.845,511.071L5403.845,576.55L5392.296,576.55L5392.296,537.444L5373.288,576.55L5368.923,576.55L5349.916,537.444L5349.916,576.55L5338.366,576.55Z" style="fill:rgb(0,0,0);fill-rule:nonzero;"/>
+                <path d="M5433.857,576.55L5455.865,543.447L5434.493,511.071L5449.681,511.071L5463.595,532.897L5477.328,511.071L5492.606,511.071L5471.234,543.447L5493.152,576.55L5477.964,576.55L5463.595,553.996L5449.135,576.55L5433.857,576.55Z" style="fill:rgb(0,0,0);fill-rule:nonzero;"/>
             </g>
         </g>
     </g>

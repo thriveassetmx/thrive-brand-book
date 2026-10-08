@@ -2,7 +2,7 @@
 
 Reorganized 2026-08-16. All THRIVE companies share the same base wordmark and color system
 (brand blue `rgb(0,73,233)` / brand orange `rgb(253,65,0)` / black) — the only thing that
-changes between them is the sub-line under "THRIVE" (Holdings, Ventures, Property MX, Assets MX,
+changes between them is the sub-line under "THRIVE" (Holdings, Ventures, Property MX, Asset MX,
 Creative Exchange, Hospitality MX, Capital MX).
 
 Structure:
@@ -28,7 +28,7 @@ brand/
 | **Thrive Holdings** | ✅ SVG + transparent PNG, 6 variations (`holdings-logo-*`), PNG width 5000 px | ⏳ pending | New logo without MX, exported 2026-09-29 |
 | **Thrive Ventures** | ✅ SVG + transparent PNG, 6 variations (`ventures-logo-*`), PNG width 5000 px | ⏳ pending | New logo without MX, exported 2026-09-29 |
 | **Thrive Property MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`propertymx-logo-*`) | ✅ final (`propertymx-favicon.svg`) | Most complete brand — treat as the reference for the shared wordmark/colors |
-| **Thrive Assets MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`assetmx-logo-*`) | ✅ final (`assetmx-favicon.svg`, from old file "TA") | Parent/portfolio brand |
+| **Thrive Asset MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`assetmx-logo-*`) | ✅ final (`assetmx-favicon.svg`, from old file "TA"; + `-blackbg` variant) | Parent/portfolio brand |
 | **Thrive Capital MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`capitalmx-logo-*`) | ✅ final (`capitalmx-favicon.svg`, from old file "TC") | Confirmed 2026-08-16: "TC" = Capital MX, not Creative Exchange |
 | **Thrive Hospitality MX** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`hospitalitymx-logo-*`) | ✅ final (`hospitalitymx-favicon.svg`, resolved 2026-08-23 from the 4 "Th 1–4" drafts) | Favicon decision resolved 2026-08-23 |
 | **Thrive Creative Exchange** | ✅ svg + png, 1-color/2-color/full-color, light/dark bg (`tce-logo-*`) | 🟡 current files use the old TCE monogram — monogram is changing to **TCX** going forward, favicon needs re-export | Confirmed 2026-08-16 the old "TC" draft belongs to Capital MX, not this brand |

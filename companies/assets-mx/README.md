@@ -1,4 +1,4 @@
-# Thrive Assets MX
+# Thrive Asset MX
 
 Status: **logo lockup added (1-color/2-color/full-color, light/dark bg), favicon in place**.
 Parent/portfolio brand. See `../../ASSET-INVENTORY.md` for the full picture and
