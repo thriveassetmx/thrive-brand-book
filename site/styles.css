@@ -29,11 +29,54 @@ h1, h2, h3, h4 {
 
 a { color: var(--thrive-blue); }
 
+/* ---------- Shared Thrive site header ----------
+   Same treatment as the signature builder and the quote builder: black bar,
+   wordmark left, nav right, white caps going orange with a 2px underline on
+   the page you are on. The hero below is already black, so the two read as
+   one masthead. */
+.sitehead { background: var(--thrive-black); }
+.shrow {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  flex-wrap: wrap;
+  min-height: 64px;
+}
+.shrow .logo-img { height: 40px; width: auto; display: block; }
+.sitenav { display: flex; gap: 2px; flex-wrap: wrap; }
+.sitenav a {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 11px 14px;
+}
+.sitenav a:hover { color: var(--thrive-orange); }
+.sitenav a[aria-current="page"] {
+  color: var(--thrive-orange);
+  box-shadow: inset 0 -2px 0 var(--thrive-orange);
+  border-radius: 0;
+}
+.sitenav a:focus-visible { outline: 2px solid var(--thrive-orange); outline-offset: 2px; }
+@media (max-width: 560px) {
+  .shrow { padding: 10px 20px; }
+  .shrow .logo-img { height: 32px; }
+  .sitenav a { padding: 9px 10px; font-size: 12px; }
+}
+
 /* ---------- Header ---------- */
 .hero {
   background: var(--thrive-black);
   color: #fff;
-  padding: 64px 32px 48px;
+  padding: 40px 32px 48px;
   text-align: center;
 }
 .hero .eyebrow {
